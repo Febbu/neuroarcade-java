@@ -23,7 +23,7 @@ public class TriviaQuiz extends Game {
     // This method will load the trivia questions from the file
     private void loadTriviaFromFile() {
         try {
-            File file = new File("src/main/java/com/mycompany/neuroarcade/trivia.txt");
+            File file = new File("trivia.txt");
             Scanner fileScanner = new Scanner(file);
             
             while (fileScanner.hasNextLine()) {
